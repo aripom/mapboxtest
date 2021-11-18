@@ -6,7 +6,7 @@
 
 <body>
 	<h1>Mapbox Tutotial</h1>
-	<h2>By Ari, Alex, and Augusta</h2>
+	<h2>By Alex, Ari, and Augusta</h2>
 	<p>Here's a map:</p>
 	<div id='map' style='width: 400px; height: 300px;'></div>
 	<script>
