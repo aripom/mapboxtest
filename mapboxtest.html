@@ -1,0 +1,23 @@
+<head>
+<script src='https://api.mapbox.com/mapbox-gl-js/v2.3.1/mapbox-gl.js'></script>
+<link href='https://api.mapbox.com/mapbox-gl-js/v2.3.1/mapbox-gl.css' rel='stylesheet' />
+</head>
+
+<body>
+	<h1>Mapbox Tutotial</h1>
+	<h2>By Ari, Alex, and Augusta</h2>
+	<p>Here's a map:</p>
+	<div id='map' style='width: 400px; height: 300px;'></div>
+	<script>
+	mapboxgl.accessToken = 'pk.eyJ1IjoiYXJpcG9tIiwiYSI6ImNrdzVkOW4weDE1aDEydm1udnRoOGt1b24ifQ.ryG3OhfSFRwx_OivY900wA';
+	var map = new mapboxgl.Map({
+	container: 'map',
+	style: 'mapbox://styles/mapbox/streets-v11'
+	});
+map.addControl(new mapboxgl.NavigationControl());
+	</script>
+
+	<p>Here is a picture of Ashley:</p>
+	<img src="https://www.macalester.edu/geography/wp-content/uploads/sites/18/2017/09/ashleynepp_geography-140x0-c-default.jpg" alt="Ashley" width="500" height="600">
+
+</body>
