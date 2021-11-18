@@ -23,4 +23,8 @@ map.addControl(new mapboxgl.NavigationControl());
 	<br />
 	<a href="https://api.mapbox.com/directions/v5/mapbox/cycling/-93.16887264457732%2C44.93733716073305%3B-118.31819112869391%2C46.04380263219031?alternatives=true&continue_straight=true&geometries=geojson&language=en&overview=simplified&steps=true&access_token=pk.eyJ1IjoiZG9tZXN0aWNjYW5kbGUiLCJhIjoiY2t3NWQ1bzBwZXN4bzJ2cGdidnR0eHBtbiJ9.fVJ0DvIqP-r4_fYYin4NMw">Here are some directions from Macalester to Alex's high school in Walla Walla, Washington!</a>
 
+	<p><b>Ready to try out map&#9744; for yourself?</b> Visit</p> <a href="mapbox.com">mapbox.com</a>
+
+	<p>&#9400; 2021. All rights reserved.</p>
+
 </body>
